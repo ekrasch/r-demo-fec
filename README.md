@@ -1,9 +1,6 @@
 # r-demo-fec
 Short demo of R and RStudio basics, using campaign finance data from the FEC. 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Intro to R using FEC Data
 
@@ -105,9 +102,9 @@ y <- x^3
 z <- x + y
 ```
 ```{r echo = FALSE}
-print(x)
-print(y)
-print(z)
+x
+y
+z
 ```
 
 Keep in mind, if you change one variable, you will have to re-run any code that uses it for your other variables to be updated.
